@@ -6,8 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WelcomeController {
 
-    @GetMapping("/welcome")
-    public String welcome() {
-        return "¡Bienvenido al examen UD5!";
-    }
+   @GetMapping("/examen")
+   public String welcome() {
+      return "Bienvenido al endpoint de la aplicación Examen UD5 y su rama feature/initial-setup";
+   }
+
 }
